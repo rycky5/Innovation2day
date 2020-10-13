@@ -1,0 +1,32 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p {
+        color: white;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: #A911E5;
+        border: 1px solid #34495e;
+        box-shadow: 0 0 1px 1px #111, inset 0 0 6px rgba(0, 0, 0, 0.514);
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: #34495e;
+        box-shadow: inset 0 0 1px 1px #363636;
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems=document.querySelectorAll('.sidenav');
+        var instances=M.Sidenav.init(elems, options);
+    }
+    
+    );
